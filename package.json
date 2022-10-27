@@ -1,0 +1,22 @@
+{
+  "name": "resetpassword-with-email",
+  "version": "1.0.0",
+  "description": "here we reset password by sending the token in the email",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js "
+  },
+  "keywords": [
+    "smtp",
+    "node-email",
+    "reset-password"
+  ],
+  "author": "sadaf shafi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
